@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-form-item{
+    margin-bottom: 16px;
+}
