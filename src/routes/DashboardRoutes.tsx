@@ -1,11 +1,14 @@
-import {Dashboard} from '../pages'
+import { Category, Dashboard } from '../pages'
 import { Route, Routes } from 'react-router-dom'
 
 const DashboardRoutes = () => {
   return (
-    <Routes>
+    <div className='h-[100vh] overflow-y-auto w-[80%]'>
+      <Routes>
         <Route path="/" element={<Dashboard />} />
-    </Routes>
+        <Route path="/categories" element={<Category />} />
+      </Routes>
+    </div>
   )
 }
 
